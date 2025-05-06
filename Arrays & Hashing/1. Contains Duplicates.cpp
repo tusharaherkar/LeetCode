@@ -1,6 +1,13 @@
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
+
+        //Algo/ Intution 
+        // 1. Declare  a set of int 
+        // 2. Traverse the input array nums
+        // 3. while traversing, check the current element is present in a set 
+        // 4. if yes return true i.e. having duplicate otherwise insert that element into the set
+        
         
         //Define the set for inserting values in it
         set <int> Set;
